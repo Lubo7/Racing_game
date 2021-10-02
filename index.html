@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>Racing game</title>
+</head>
+<body>
+
+
+    <section id="1">
+        <div class="diapositiva1">
+            <img class="pic" onClick='cambiarPantalla("2")' src="./Images/Vattana_formula.jpg" alt="Vattana"/>
+        </div>
+    </section>
+
+    <section id="2" style="display:none">
+        <div class="diapositiva2">
+            <img class="pic" onClick='cambiarPantalla("3")' src="./Images/futuristic.jpg" alt="futuristic"/>
+            <img class="pic" onClick='seleccionarCoche("redbull")' src="./Images/Redbul_formula.jpg" alt="redbull"/>
+            <img class="pic" onClick='seleccionarCoche("vattana")' src="./Images/Vattana_formula.jpg" alt="vattana"/>
+            <img class="pic" onClick='seleccionarCoche("vattana")' src="./Images/Vattana_formula.jpg" alt="vattana"/>
+        </div>
+    </section>
+
+    <section id="3" style="display:none">
+        <div class="diapositiva3">
+            <img class="pic" onClick='cambiarPantalla("4")' src="img/goku.png" alt="goku"/>
+        </div>
+    </section>
+
+    <section id="4" style="display:none">
+        <div class="diapositiva4">
+            <img class="pic" onClick='cambiarPantalla("1")' src="img/robot.jpg" alt="robot"/>
+        </div>
+    </section>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
