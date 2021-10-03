@@ -8,7 +8,7 @@
 }
 
 body {
-  background: url("/Images/race.jpg");
+  background: url("/Images/race_2.jpg");
   background-size: cover;  
   background-repeat: no-repeat;   
 }
@@ -67,7 +67,7 @@ button {
     justify-content: center;
     align-items: center;
     color: rgb(245, 245, 245);
-    background: rgb(190, 29, 29);
+    background: rgb(0, 0, 0);
     font-size: 28px;
     top: 0;
     left: 0;
@@ -105,12 +105,12 @@ button {
     width: 40vh;
     height: 15vw;
     margin: 2em;
-    border: 5px solid white !important;
+    border: 10px solid white !important;
 }
 
 /*
 Inspiration from our teacher to choose and change a visual:
-.contenedor {
+.container_2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
