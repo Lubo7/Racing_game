@@ -8,7 +8,7 @@
 }
 
 body {
-  background: url("/Images/race_2.jpg");
+  background-image: url("/Images/race_2.jpg");
   background-size: cover;  
   background-repeat: no-repeat;   
 }
@@ -108,8 +108,6 @@ button {
     border: 10px solid white !important;
 }
 
-/*
-Inspiration from our teacher to choose and change a visual:
 .container_2 {
   display: flex;
   flex-direction: row;
@@ -120,6 +118,7 @@ Inspiration from our teacher to choose and change a visual:
   background-color: orchid;
 }
 
+/*
 .contenedorCoche {
   height: 8em;
   width: 12em;
