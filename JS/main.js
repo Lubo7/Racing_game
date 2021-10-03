@@ -1,6 +1,6 @@
 //Declaracion de la clase
 
-class Coche {
+class Racer {
 
     constructor(marca, modelo, velocidad){
         this.marca = marca,
@@ -10,8 +10,8 @@ class Coche {
 
 }
 
-let c1 = new Coche("Mercedes","Clase A", 0);
-let c2 = new Coche("Ford","Probe",0);
+let c1 = new Racer("Mercedes","Clase A", 0);
+let c2 = new Racer("Ford","Probe",0);
 
 let coche1 = "";
 let coche2 = "";
